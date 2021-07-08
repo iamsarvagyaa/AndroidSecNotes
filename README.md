@@ -72,7 +72,6 @@
 - porcupiney.hairs : Java/Android - Insecure Loading of a Dex File :: [#1161956](https://hackerone.com/reports/1161956)
 - Unsafe deserialization leads to token leakage in PayPal & PayPal for Business [Android] :: [#453791](https://hackerone.com/reports/453791)
 - Cookie steal through content Uri :: [#876192](https://hackerone.com/reports/876192)
-- [Information Disclosure] Amazon S3 Bucket of Shopify Ping (iOS) have public access of other users image :: [#1021906](https://hackerone.com/reports/1021906)
 - Bypassing Passcode/Device credentials :: [#747726](https://hackerone.com/reports/747726)
 - [Java] CWE-755: Query to detect Local Android DoS caused by NFE :: [#1061211](https://hackerone.com/reports/1061211)
 - Path traversal in ZIP extract routine on LINE Android :: [#859469](https://hackerone.com/reports/859469)
@@ -87,8 +86,42 @@
 - API Keys Hardcoded in Github repository :: [#766346](https://hackerone.com/reports/766346)
 - Changing email address on Twitter for Android unsets "Protect your Tweets" :: [#472013](https://hackerone.com/reports/472013)
 - Golden techniques to bypass host validations in Android apps :: [#431002](https://hackerone.com/reports/431002)
+- Improper protection of FileContentProvider :: [#331302](https://hackerone.com/reports/331302)
+- Extremly simple way to bypass Nextcloud-Client PIN/Fingerprint lock :: [#331489](https://hackerone.com/reports/331489)
+- Disclosure of all uploads to Cloudinary via hardcoded api secret in Android app :: [#351555](https://hackerone.com/reports/351555)
+- [Mail.Ru Android] Typo in permission name allows to write contacts without user knowledge :: [#440749](https://hackerone.com/reports/440749)
+- SQL Injection found in NextCloud Android App Content Provider :: [#291764](https://hackerone.com/reports/291764)
+- [Android] HTML Injection in BatterySaveArticleRenderer WebView :: [#176065](https://hackerone.com/reports/176065)
+- SQLi allow query restriction bypass on exposed FileContentProvider :: [#518669](https://hackerone.com/reports/518669)
+- [Zomato Android/iOS] Theft of user session :: [#328486](https://hackerone.com/reports/328486)
+- Protected Tweets setting overridden by Android app :: [#519059](https://hackerone.com/reports/519059)
+- Bypassing lock protection :: [#490946](https://hackerone.com/reports/490946)
+- Improper validation allows user to unlock Zomato Gold multiple times at the same restaurant within one day :: [#486629](https://hackerone.com/reports/486629)
+- Authorization bypass using login by phone option+horizontal escalation possible on Grab Android App :: [#205000](https://hackerone.com/reports/205000)
+- [IRCCloud Android] XSS in ImageViewerActivity :: [#283063](https://hackerone.com/reports/283063)
+- [IRCCloud Android] Theft of arbitrary files leading to token leakage :: [#288955](https://hackerone.com/reports/288955)
+- Two-factor authentication bypass on Grab Android App :: [#202425](https://hackerone.com/reports/202425)
+- Android - Access of some not exported content providers :: [#272044](https://hackerone.com/reports/272044)
+- Improper markup sanitisation in Simplenote Android application :: [#297547](https://hackerone.com/reports/297547)
+- [Android] XSS via start ContentActivity :: [#189793](https://hackerone.com/reports/189793)
+- [iOS/Android] Address Bar Spoofing Vulnerability :: [#175958](https://hackerone.com/reports/175958)
+- Access of Android protected components via embedded intent :: [#200427](https://hackerone.com/reports/200427)
+- Possible to steal any protected files on Android :: [#161710](https://hackerone.com/reports/161710)
+- [Quora Android] Possible to steal arbitrary files from mobile device :: [#258460](https://hackerone.com/reports/258460)
+- Multiple critical vulnerabilities in Odnoklassniki Android application :: [#97295](https://hackerone.com/reports/97295)
+- Android - Possible to intercept broadcasts about uploaded files :: [#167481](https://hackerone.com/reports/167481)
+- Download attachments with traversal path into any sdcard directory (incomplete fix 106097) :: [#284346](https://hackerone.com/reports/284346)
+- [IRCCloud Android] Opening arbitrary URLs/XSS in SAMLAuthActivity :: [#283058](https://hackerone.com/reports/283058)
+- Mapbox Android SDK uses Broadcast Receiver instead of Local Broadcast Manager :: [#192886](https://hackerone.com/reports/192886)
+- Twitter for android is exposing user's location to any installed android app :: [#185862](https://hackerone.com/reports/185862)
+- Vulnerable exported broadcast receiver :: [#289000](https://hackerone.com/reports/289000)
+- Android MailRu Email: Thirdparty can access private data files with small user interaction :: [#226191](https://hackerone.com/reports/226191)
+- Vine - overwrite account associated with email via android application :: [#187714](https://hackerone.com/reports/187714)
+- Activities are not Protected and able to crash app using other app (Can Malware or third parry app) :: [#65729](https://hackerone.com/reports/65729)
+- Account takeover intercepting magic link for Arrive app :: [#855618](https://hackerone.com/reports/855618)
 
 <a name="bugbounty-writeups"></a>
+
 ### [↑](#synopsis) BugBounty Writeups
 
 - [Brave — Stealing your cookies remotely](https://infosecwriteups.com/brave-stealing-your-cookies-remotely-1e09d1184675)
@@ -142,6 +175,13 @@
 - [Chasing a lock - RaziCTF 2020](https://blackbeard666.github.io/pwn_exhibit/content/2020_CTF/RaziCTF/android_lock/lock_writeup.html) - by blackbear666
 - [CTF Coin - RaziCTF 2020](https://ctftime.org/writeup/24560) - by cthulhu 
 - [CTF Coin - RaziCTF 2020](https://github.com/t3rmin0x/CTF-Writeups/tree/master/Razi%20CTF/Android/CTF%20Coin) - by t3rmin0x
+- [Friends - RaziCTF 2020](https://ctftime.org/writeup/24559) - by cthulhu
+- [Friends - RaziCTF 2020](https://github.com/t3rmin0x/CTF-Writeups/tree/master/Razi%20CTF/Android/Friends) - by t3rmin0x
+- [Meeting - RaziCTF 2020](https://github.com/t3rmin0x/CTF-Writeups/tree/master/Razi%20CTF/Android/Meeting) - by t3rmin0x
+- [Strong padlock - RaziCTF 2020](https://github.com/t3rmin0x/CTF-Writeups/tree/master/Razi%20CTF/Android/Strong%20Padlock) - by t3rmin0x
+- [Strong padlock - RaziCTF 2020](https://ctftime.org/writeup/24500) - by Al3x2
+- [Strong padlock - RaziCTF 2020](https://ctftime.org/writeup/24549) - by Londek
+- [tough - RaziCTF 2020](https://github.com/t3rmin0x/CTF-Writeups/tree/master/Razi%20CTF/Android/Tough) - by t3rmin0x
 
 <a name="healthy-digests"></a>
 ### [↑](#synopsis) Healthy Digests
