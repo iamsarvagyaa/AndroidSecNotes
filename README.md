@@ -205,7 +205,7 @@
 ### Wanna Contact with me?
 - LinkedIn  : [iamsarvagyaa](https://www.linkedin.com/in/iamsarvagyaa/)
 - Twitter   : [iamsarvagyaa](https://twitter.com/iamsarvagyaa)
-- Instagram : [iamsarvagyaa](https://instagram.com/instagram)
+- Instagram : [iamsarvagyaa](https://instagram.com/iamsarvagyaa)
 - Keybase   : [iamsarvagyaa](https://keybase.io/iamsarvagyaa)
 - E-mail    : [iamsarvagyaa@gmail.com](mailto:iamsarvagyaa@gmail.com)
 
